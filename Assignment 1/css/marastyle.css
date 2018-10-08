@@ -1,0 +1,33 @@
+p {
+    font-family: Georgia;
+    font-size: 15px;
+    background-color: lightgray;
+}
+
+h2 {
+    background-color: lightgray;
+}
+
+img.transparent {
+    opacity: 0.5;
+}
+
+body {
+    background-image: url("https://cdn-image.foodandwine.com/sites/default/files/1501607996/opentable-scenic-restaurants-marine-room-FT-BLOG0818.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+label {
+    font-family: Georgia;
+    font-size: 15px;
+    background-color: lightgray;
+}
+
+span {
+    font-family: Georgia;
+    font-size: 15px;
+    background-color: lightgray;
+}
