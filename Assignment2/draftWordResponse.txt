@@ -1,0 +1,11 @@
+Mara Kinoff
+Dr. Payne
+CIDM 4382-01
+25 September 2018
+Assignment 2
+	This program is a simple treasure hunting game. You will see a square-like field, with labeled rows and columns, of options where you can dig for treasure. 
+You will be asked to decide which row and column you want to dig in. Every time you do not find the treasure while digging, you will be notified by seeing an ‘O’, representing a dug hole, on the map. You will also receive some helpful tips in the form of which direction you should try digging. This will continue until you successfully find the buried treasure, which will be represented by seeing an ‘X’ on the map. From here, you can choose to either play the game again, or exit the game.
+	
+	I approached the programming process by writing smaller portions of the code at a time and testing them before moving on. I think it is helpful to make sure that all the individual parts are working before attempting to put everything together. I also use a fait amount of documentation so that I am aware of what each part of my code does. 
+The most challenging part of the program for me was setting up my nested while loops so that a user could play again if they wanted to. This was difficult because if a user does decide to play again, you have to reset the board so to speak. I addressed this problem through making the decision to have most of the set-up portion of my code inside the first while loop and most of entirety of the code that actually interacts with the use inside the second while loop. The other challenging portion for me was researching how arrays work in JavaScript. While it is similar to C#, they are different, so to familiarize myself with arrays in JavaScript, I practiced with them on w3schools before even attempting to put it into my code. This helped me feel much more confident in my coding process. 
+I would say that some insight gained from my process is that it is crucial to constantly check that the code is still compiling as you add important parts. You don’t want to add a couple key moving parts just to find out that the code won’t run properly and now you have to check each part that you added. 
