@@ -44,11 +44,11 @@ $(document).ready(function() {
         var choice = Math.floor(Math.random() * 3);
         $("#tube1").css("background-color", colors[choice]);
 
-        console.log("Tube 2: " + $("#tube2").css("background-color"));
+        //console.log("Tube 2: " + $("#tube2").css("background-color"));
 
         if($("#tube2").css("background-color") != 'rgb(255, 255, 255)') {
 
-                console.log("Got to point A");
+                //console.log("Got to point A");
                         
                 if (($("#tube1").css("background-color") === 'rgb(220, 7, 43)') && ($("#tube2").css("background-color") === 'rgb(220, 7, 43)')) {
                         $("#tube3").css("background-color", 'rgb(220, 7, 43)');
@@ -89,11 +89,11 @@ $(document).ready(function() {
         var choice = Math.floor(Math.random() * 3);
         $("#tube2").css("background-color", colors[choice]);
 
-        console.log("Tube 1: " + $("#tube1").css("background-color"));
+        //console.log("Tube 1: " + $("#tube1").css("background-color"));
 
         if($("#tube1").css("background-color") != 'rgb(255, 255, 255)') {
             
-                console.log("Got to point B");
+                //console.log("Got to point B");
                                 
                 if (($("#tube1").css("background-color") === 'rgb(220, 7, 43)') && ($("#tube2").css("background-color") === 'rgb(220, 7, 43)')) {
                         $("#tube3").css("background-color", 'rgb(220, 7, 43)');
