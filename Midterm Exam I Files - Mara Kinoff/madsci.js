@@ -143,11 +143,12 @@ $(document).ready(function() {
 
     $('body').keyup(function(e){
         if(e.keyCode == 32){
-            $("#tube3").css("background-color", 'rgb(250, 250, 250)');    
-            alert("Superpowers activated!");
+                if($("#tube3").css("background-color") != 'rgb(255, 255, 255)') {
+                        $("#tube3").css("background-color", 'rgb(255, 255, 255)');    
+                        alert("Superpowers activated!");
+                }
         }
     });
-  
 });  // End document ready -- WRITE ALL CODE ABOVE THIS LINE
                   
                   
