@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/CIDM4382_JS_Review-master/JS Practice.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
